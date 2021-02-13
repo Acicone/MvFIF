@@ -1,10 +1,25 @@
 % Test Example
 %
-%  Example 1 computed using angles
-%
 % We consider the Earth magnetic field measurements made by one of the three satellites of the European Space Agency Swarm
 % mission from April 21 to 22, 2004. We thank the European Space Agency (ESA) that supports the Swarm mission.
 % Swarm data can be accessed online at http://earth.esa.int/swarm.
+%
+%  Please cite: 
+%
+%  A. Cicone, H. Zhou. "Numerical Analysis for Iterative Filtering with 
+%  New Efficient Implementations Based on FFT". Numerische Mathematik, 2020. 
+%  doi: 10.1007/s00211-020-01165-5
+%  ArXiv http://arxiv.org/abs/1802.01359
+%
+%  A. Cicone. "Iterative Filtering as a direct method for the decomposition 
+%  of nonstationary signals". Numerical Algorithms, Volume 373, 2020,  112248. 
+%  doi: 10.1007/s11075-019-00838-z
+%  ArXiv http://arxiv.org/abs/1811.03536%
+%
+%  A. Cicone, "Multivariate fast iterative Filtering for the decomposition 
+%  of nonstationary signals"
+%  ArXiv https://arxiv.org/abs/1902.04860
+%
 
 clear all
 clc
