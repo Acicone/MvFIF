@@ -44,7 +44,7 @@ function options = Settings_FIF_v3(varargin)
 %                           the remainder
 %  Xi          (1.6)   Parameter we use to tune the mask length
 %  alpha       ('ave') Parameter used for the mask length computation.
-%                           Allowed values 'ave', [0,100], 'Median' or 'Almost_min'.
+%                           Allowed values 'ave', [0,100] or 'Almost_min'.
 %                           If set to 'ave' the mask length equals 
 %                           round(2*Xi*(length of the signal)/(number of extrema)).
 %                           If set to 0 the mask length is proportional to the
@@ -65,17 +65,18 @@ function options = Settings_FIF_v3(varargin)
 % EXAMPLE
 %          
 %   >> options = Settings_FIF_v3('delta',0.08,'NIMFs',5,'plots',1) 
-%   >> IMF = FIF_v2_8(x,options)
+%   >> IMF = FIF_v2_12(x,options)
 %              
-%  Executes algorithm FIF_v2_8 with delta = 0.08, stops after we have at most 5 IMFs and a trend, it produces plots.                            
+%  Executes algorithm FIF_v2_12 with delta = 0.08, stops after we have at most 5 IMFs and a trend, it produces plots.                            
 % ------------------------------------------------------      
 %
-% See also FIF_v2_8
+% See also FIF_v2_12 and MvFIF_v7
 %
 %  Please cite: 
 %
-%  A. Cicone, H. Zhou. 'Numerical Analysis for Iterative Filtering with
-%  New Efficient Implementations Based on FFT'
+%  A. Cicone, H. Zhou. "Numerical Analysis for Iterative Filtering with 
+%  New Efficient Implementations Based on FFT". Numerische Mathematik, 2020. 
+%  doi: 10.1007/s00211-020-01165-5
 %  ArXiv http://arxiv.org/abs/1802.01359
 %
 %  A. Cicone. 'Iterative Filtering as a direct method for the decomposition 
