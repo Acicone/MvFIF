@@ -1,7 +1,7 @@
-# MFIF
+# MvFIF
 Multivariate Fast Iterative Filtering
 
-MFIF generates the decomposition of the multivariate signal f 
+MvFIF generates the decomposition of the multivariate signal f 
 
 Bibliography
 
