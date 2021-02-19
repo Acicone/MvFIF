@@ -82,7 +82,7 @@ end
 
 %% CASE 3D + time
 S=[H,D,Z];
-opts=Settings_IF_v1('IF.ExtPoints',5,'verbose',0);
+opts=Settings_FIF_v3('ExtPoints',5,'verbose',0);
 tic
 [IMF_v7,logM_v7] = MvFIF_v7(S,opts);
 toc
